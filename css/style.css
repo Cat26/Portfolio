@@ -88,7 +88,7 @@ h1{
 }
 .images{
     background: black;
-    background-image: url(images/cat.jpg);
+    background-image: url(../images/cat.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
@@ -133,7 +133,7 @@ h1{
     margin-bottom: 10%;
 }
 .p1{
-    background: url(images/background.jpg);
+    background: url(../images/background.jpg);
 }
 .p3{
     background: #0c5460;
@@ -164,7 +164,13 @@ h1{
 .description p{
     margin:0px 10px;
 }
-
+.user-input{
+    margin: 1px;
+    padding: 1px;
+    width: 260px;
+    height: 200px;
+    resize: none;
+}
 a{
     color: black;
 }
