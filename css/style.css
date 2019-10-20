@@ -180,7 +180,7 @@ a{
 }
 
 .git a:hover, .linkedin a:hover{
-    color: #c1243f
+    color: #c1243f;
 }
 
 #em{
@@ -188,4 +188,9 @@ a{
 }
 footer{
     background: #4d4d4d;
+}
+.email {
+    color: #6b151d;
+    cursor: pointer;
+    
 }
