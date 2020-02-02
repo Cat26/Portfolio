@@ -128,9 +128,12 @@ h1{
     /*cursor: pointer;*/
     padding: 0px;
     text-align: center;
-    width:210px;
+    /*width:210px;*/
     height: 300px;
     margin-bottom: 10%;
+}
+.project p{
+    color: black;
 }
 .p1{
     background: url(../images/background.jpg);
