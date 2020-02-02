@@ -125,7 +125,7 @@ h1{
     margin-bottom:20%;
 }
 .project{
-    cursor: pointer;
+    /*cursor: pointer;*/
     padding: 0px;
     text-align: center;
     width:210px;
@@ -135,11 +135,19 @@ h1{
 .p1{
     background: url(../images/background.jpg);
 }
-.p3{
-    background: #0c5460;
-}
 .p2{
-    border: solid black;
+    /*border: solid black;*/
+    background: url(../images/superb-fairy-wren.jpg);
+    background-size: cover;
+}
+.p3{
+    /*background: #0c5460;*/
+    background: url(../images/background_img.jpg);
+    background-size: cover;
+}
+.p4{
+    background: url(../images/movie.jpg);
+    background-size: cover;
 }
 
 .project:hover{
@@ -159,7 +167,7 @@ h1{
     font-family: 'Pacifico', cursive;
 }
 .description{
-    background: rgba(234, 210, 210, 0.6);
+    background: rgba(234, 210, 210, 0.37);;
 }
 .description p{
     margin:0px 10px;
