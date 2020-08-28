@@ -1,0 +1,111 @@
+@import "about/about.css";
+@font-face {
+  font-family: dancingScript;
+  src: url("font/Dancing_Script/DancingScript-VariableFont_wght.ttf") format("truetype");
+}
+
+html, body {
+  font-family: dancingScript, sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+.portfolio-container {
+  display: flex;
+  height: 100%;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.side-menu {
+  color: white;
+  text-align: center;
+  height: 100%;
+  background: #022e35;
+  animation: changeSideMenuWidth 2s;
+  width: 70%;
+}
+
+.portfolio-links img {
+  height: 30px;
+}
+
+#portfolio-github-icon {
+  background: white;
+  border-radius: 3px;
+}
+
+#profile-img {
+  opacity: 1;
+  width: 100%;
+  height: 79%;
+  animation: changeOpacity 5s;
+}
+
+.email {
+  cursor: pointer;
+  font-size: 24px;
+  color: #94d495a6;
+}
+
+.email:before {
+  content: '\21B7';
+  font-size: 27px;
+}
+
+@keyframes changeSideMenuWidth {
+  from {width: 0;}
+  to {width: 70%;}
+}
+
+@keyframes changeOpacity {
+  0% {opacity: 0;}
+  45% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.side-menu-info {
+  padding: 10px;
+  float: left;
+  display: inline-block;
+  animation: changeOpacity 7s;
+}
+
+.portfolio-brand {
+  display: inline-block;
+  padding: 20px;
+  float: left;
+  animation: changeOpacity 8s;
+}
+
+.side-sections {
+  height: 100%;
+  right: 0;
+  display: inline-grid;
+}
+
+.side-sections button {
+  background: #114f43;
+  width: 80px;
+  color: white;
+  font-size: 19px;
+  font-family: dancingScript, sans-serif;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-color: white;
+}
+
+.side-sections button:hover {
+  box-shadow: 4px -1px 11px 4px #0c700ba3;
+}
+
+.next:after {
+  content: '\02F2';
+  position: fixed;
+  top: 20%;
+  right: 10px;
+  font-size: 230px;
+  color: #94d495;
+}
