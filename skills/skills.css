@@ -1,0 +1,33 @@
+.skills-container {
+    margin: 55px 75px 55px 620px;
+    width: 750px;
+    font-size: 18px;
+}
+
+.skill-bar {
+    height: 20px;
+    width: 360px;
+    background: #d3d3d385;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.technology-item {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.technology-name {
+    font-family: monospace;
+    display: inline-block;
+    width: 200px;
+}
+
+.skill-percentage {
+    background: #94d495;
+    height: 100%;
+    border-radius: 20px;
+    font-size: 14px;
+    text-align: center;
+}

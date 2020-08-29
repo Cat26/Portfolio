@@ -1,0 +1,21 @@
+.main-project-container {
+    margin: 55px 75px 55px 590px;
+    font-size: 26px;
+}
+
+.project-v1, .project-v2 {
+    width: 350px;
+    height: 350px;
+    background: #d3d3d385;
+    display: inline-block;
+    margin-right: 20px;
+    font-family: monospace;
+    font-size: 15px;
+    padding-left: 20px;
+    box-shadow: 11px 15px 13px 3px #846b6b;
+}
+
+.project-link {
+    color: #bf1b39fa;
+    font-weight: bold;
+}

@@ -1,4 +1,7 @@
 @import "about/about.css";
+@import "skills/skills.css";
+@import "main-project/main-project.css";
+@import "little-projects/little-projects.css";
 @font-face {
   font-family: dancingScript;
   src: url("font/Dancing_Script/DancingScript-VariableFont_wght.ttf") format("truetype");
@@ -20,12 +23,14 @@ h2 {
 }
 
 .side-menu {
+  display: flex;
+  position: absolute;
   color: white;
   text-align: center;
   height: 100%;
   background: #022e35;
   animation: changeSideMenuWidth 2s;
-  width: 70%;
+  width: 534px;
 }
 
 .portfolio-links img {
@@ -57,7 +62,7 @@ h2 {
 
 @keyframes changeSideMenuWidth {
   from {width: 0;}
-  to {width: 70%;}
+  to {width: 534px;}
 }
 
 @keyframes changeOpacity {
@@ -82,8 +87,12 @@ h2 {
 
 .side-sections {
   height: 100%;
-  right: 0;
   display: inline-grid;
+  background: white;
+}
+
+button:focus {
+  outline: none;
 }
 
 .side-sections button {
@@ -95,10 +104,22 @@ h2 {
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
   border-color: white;
+  opacity: 1;
+  animation: changeOpacity 2s;
+  cursor: pointer;
 }
 
 .side-sections button:hover {
   box-shadow: 4px -1px 11px 4px #0c700ba3;
+}
+
+.active {
+  box-shadow: 4px -1px 11px 4px #0c700ba3;
+  width: 86px !important;
+}
+
+.next {
+  cursor: pointer;
 }
 
 .next:after {
@@ -108,4 +129,33 @@ h2 {
   right: 10px;
   font-size: 230px;
   color: #94d495;
+}
+
+.next:hover {
+  text-shadow: 2px 2px 9px #0c700b80;
+}
+
+.change-font-btn {
+  position: fixed;
+  padding: 17px;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  font-family: monospace;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.change-font-btn:before {
+  content: '\2192';
+  font-size: 30px;
+  padding: 9px;
+}
+
+.portfolio-footer {
+  position: fixed;
+  padding: 17px;
+  right: 0;
+  bottom: 0;
 }

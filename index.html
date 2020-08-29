@@ -9,28 +9,33 @@
 <body>
     <div class="portfolio-container">
         <div class="side-menu">
-            <div class="portfolio-brand"><img src="images/brand_3.png" alt=""></div>
-            <div class="side-menu-info">
-                <div class="portfolio-links">
-                    <h2>How to reach me?</h2>
-                    <a href="https://www.linkedin.com/in/julia-hardy-71943b169/" target="_blank"><img src="images/linkedin.png"></a>
-                    <a href="https://github.com/Cat26" target="_blank"><img id="portfolio-github-icon" src="images/GitHub-Mark-32px.png"></a>
+            <div>
+                <div class="portfolio-brand"><img src="images/brand_3.png" alt=""></div>
+                <div class="side-menu-info">
+                    <div class="portfolio-links">
+                        <h2>How to reach me?</h2>
+                        <a href="https://www.linkedin.com/in/julia-hardy-71943b169/" target="_blank"><img src="images/linkedin.png"></a>
+                        <a href="https://github.com/Cat26" target="_blank"><img id="portfolio-github-icon" src="images/GitHub-Mark-32px.png"></a>
+                    </div>
+                    <div class="portfolio-contact">
+                        <div class="email"> Click to show email</div>
+                    </div>
                 </div>
-                <div class="portfolio-contact">
-                    <div class="email"> Click to show email</div>
-                </div>
+                <img id="profile-img" src="images/portfolio.jpg" alt="profile photo">
             </div>
-            <img id="profile-img" src="images/portfolio.jpg" alt="profile photo">
+            <div class="side-sections">
+                <button class="active section-btn" id="about" onclick="handleSectionsSwitch(this)">About me</button>
+                <button class="section-btn" id="skills" onclick="handleSectionsSwitch(this)">My Skills</button>
+                <button class="section-btn" id="main" onclick="handleSectionsSwitch(this)">Main Project</button>
+                <button class="section-btn" id="little" onclick="handleSectionsSwitch(this)">Little projects</button>
+            </div>
         </div>
-        <div class="side-sections">
-            <button>About me</button>
-            <button>My Skills</button>
-            <button>Main Project</button>
-            <button>Little projects</button>
-        </div>
-        <about></about>
-        <div class="next"></div>
+        <div class="portfolio-active-section"></div>
+        <div class="next" onclick="switchToNextSection()"></div>
+        <div class="change-font-btn">Change font to more readable</div>
+        <div class="portfolio-footer">© 2020 Copyright: Julia Hardy</div>
     </div>
     <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="little-projects/little-projects.js"></script>
 </body>
 </html>
