@@ -1,10 +1,10 @@
 .main-project-container {
     margin: 55px 75px 55px 590px;
-    font-size: 26px;
+    font-size: 21px;
 }
 
 .project-v1, .project-v2 {
-    width: 350px;
+    width: 294px;
     height: 350px;
     background: #d3d3d385;
     display: inline-block;
@@ -18,4 +18,49 @@
 .project-link {
     color: #bf1b39fa;
     font-weight: bold;
+}
+
+@media only screen and (min-width: 1920px) {
+    .main-project-container {
+        margin-left: 900px;
+        margin-right: 100px;
+        font-size: 38px;
+    }
+
+    .project-v1, .project-v2 {
+        width: 474px;
+        height: 500px;
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .main-project-container {
+        margin-left: 506px;
+        font-size: 20px;
+    }
+
+    .project-v1, .project-v2 {
+        display: flex;
+        font-size: 13px;
+        width: 400px;
+        height: 137px;
+    }
+
+    .project-v1 div, .project-v2 div {
+        display: inline-block;
+    }
+
+    .project-v2 {
+        margin-top: 20px;
+    }
+
+    .main-project-technologies {
+        margin-left: 25px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .main-project-container {
+        margin: 246px 40px 20px 60px;
+    }
 }

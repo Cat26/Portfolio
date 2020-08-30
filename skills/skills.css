@@ -1,7 +1,6 @@
 .skills-container {
-    margin: 55px 75px 55px 620px;
-    width: 750px;
-    font-size: 18px;
+    margin: 40px 75px 55px 620px;
+    font-size: 16px;
 }
 
 .skill-bar {
@@ -30,4 +29,50 @@
     border-radius: 20px;
     font-size: 14px;
     text-align: center;
+}
+
+@media only screen and (min-width: 1920px) {
+    .skills-container {
+        margin-left: 900px;
+        font-size: 30px;
+    }
+
+    .technology-name {
+        width: 320px;
+    }
+
+    .skill-bar {
+        height: 30px;
+        width: 600px;
+    }
+
+    .skill-percentage {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .skills-container {
+        margin: 40px 75px 55px 548px;
+        font-size: 15px;
+    }
+
+    .technology-name {
+        width: 153px;
+    }
+
+    .skill-bar {
+        height: 16px;
+        width: 229px;
+    }
+
+    .skill-percentage {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .skills-container {
+        margin: 246px 0 0 60px;
+    }
 }
