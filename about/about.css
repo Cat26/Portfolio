@@ -11,16 +11,16 @@
   }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width:992px) and (max-width: 1024px) {
   .about-container {
     margin: 43px 75px 55px 534px;
     font-size: 20px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
   .about-container {
-    margin: 43px;
-    display: grid;
+    /*margin: 43px;*/
+    /*display: grid;*/
   }
 }

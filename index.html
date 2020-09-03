@@ -3,6 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+          crossorigin="anonymous"
+    >
     <link rel="stylesheet" type="text/css" href="main.css">
     <title>JHardy</title>
 </head>
@@ -30,10 +36,14 @@
                 <button class="section-btn" id="little" onclick="handleSectionsSwitch(this)">Little projects</button>
             </div>
         </div>
-        <div class="portfolio-active-section"></div>
+        <div class="container">
+            <div class="portfolio-active-section"></div>
+        </div>
         <div class="next" onclick="switchToNextSection()"></div>
-        <div class="change-font-btn">Change font to more readable</div>
-        <div class="portfolio-footer">© 2020 Copyright: Julia Hardy</div>
+        <div class="change-font-btn desktop">Change font to more readable</div>
+        <div class="portfolio-footer">© 2020 Copyright: Julia Hardy
+            <div class="change-font-btn mobile">Change font to more readable</div>
+        </div>
     </div>
     <script type="text/javascript" src="main.js"></script>
     <script type="text/javascript" src="little-projects/little-projects.js"></script>

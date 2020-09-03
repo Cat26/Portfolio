@@ -21,7 +21,9 @@ html, body {
 h2 {
   margin-top: 0;
 }
-
+h3 {
+  width: 100%;
+}
 .side-menu {
   display: flex;
   position: absolute;
@@ -162,7 +164,12 @@ button:focus {
   right: 0;
   bottom: 0;
 }
-
+.desktop{
+  display: block;
+}
+.mobile{
+  display: none;
+}
 @media only screen and (min-width: 1920px) {
   .side-menu {
     width: 715px;
@@ -229,7 +236,7 @@ button:focus {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
   .side-menu {
     width: 100%;
     height: unset;
@@ -241,7 +248,13 @@ button:focus {
   #profile-img {
     width: 16%;
   }
-
+  .portfolio-active-section{
+    padding: 0 15px;
+  }
+  .portfolio-active-section > div {
+    margin: 240px 0 0 0;
+    font-size: 14px;
+  }
   .side-sections {
     display: flex;
     width: 100%;
@@ -265,5 +278,19 @@ button:focus {
 
   .next {
     display: none;
+  }
+}
+@media only screen and (max-width: 576px) {
+  #profile-img{
+    display: none;
+  }
+  .desktop{
+    display: none;
+  }
+  .mobile{
+    display: block;
+  }
+  .portfolio-active-section{
+    padding: 0 5px;
   }
 }
