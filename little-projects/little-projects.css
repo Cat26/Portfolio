@@ -231,4 +231,10 @@
     .little-projects-container .row{
         justify-content: center;
     }
+    .modal-content {
+        flex-direction: column;
+    }
+    .model-content-item {
+        width: 100%;
+    }
 }
