@@ -23,6 +23,7 @@ h2 {
 }
 h3 {
   width: 100%;
+  font-weight: 600;
 }
 .side-menu {
   display: flex;

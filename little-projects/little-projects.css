@@ -4,10 +4,12 @@
     color: white;
     display: flex;
 }
-
+.javascript-practice p{
+    padding: 0 5px;
+}
 .project-item {
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     display: inline-block;
     text-align: center;
     margin-right: 20px;
@@ -201,6 +203,20 @@
     .javascript-practice{
         margin-bottom: 10px;
         font-size: 12px;
+    }
+    .project-item {
+        width: 200px;
+        height: 200px;
+    }
+    .project-item {
+        padding-top: 30px;
+    }
+    .portfolio-active-section .graphics-modal {
+        padding-top: 100px;
+        margin-top: 0;
+    }
+    .modal-content {
+        width: 90%;
     }
 }
 @media only screen and (max-width: 575px) {
