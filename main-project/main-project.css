@@ -20,6 +20,11 @@
 .project-link {
     color: #bf1b39fa;
     font-weight: bold;
+    display: block;
+}
+.project-link:before {
+    content: '\2192';
+    padding: 2px;
 }
 
 @media only screen and (min-width: 1920px) {
