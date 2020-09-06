@@ -17,7 +17,12 @@
 .project-item:hover, .graphics-item:hover {
     box-shadow: 17px 20px 13px 3px #846b6b;
 }
-
+.little-projects-container{
+    margin-left: 40%;
+}
+.little-projects-container .row {
+    margin: 15px 0;
+}
 .little-projects-container a {
     color: white;
     text-decoration: none;
@@ -84,10 +89,10 @@
     visibility: visible;
 }
 
-.modal {
+.graphics-modal {
     display: none;
     position: fixed;
-    z-index: 1;
+    z-index: 10000;
     padding-top: 100px;
     left: 0;
     top: 0;
@@ -113,6 +118,7 @@
     border: 1px solid #888;
     width: 50%;
     display: flex;
+    flex-direction: inherit;
 }
 
 .model-content-item.content-img {
