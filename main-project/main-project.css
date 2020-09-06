@@ -28,15 +28,18 @@
 }
 
 @media only screen and (min-width: 1920px) {
+    .portfolio-active-section > div {
+        margin-left: 30%;
+    }
     .main-project-container {
         margin-right: 100px;
-        font-size: 38px;
+        font-size: 30px;
     }
 
     .project-v1, .project-v2 {
-        width: 474px;
-        height: 500px;
-        font-size: 25px;
+        width: 380px;
+        height: 400px;
+        font-size: 22px;
     }
 }
 
