@@ -1,5 +1,6 @@
 .main-project-container {
     font-size: 21px;
+    margin-left: 50%;
 }
 
 .project-v1, .project-v2 {
@@ -8,8 +9,10 @@
     background: #d3d3d385;
     display: inline-block;
     margin-right: 20px;
+    margin-bottom: 15px;
     font-family: monospace;
     font-size: 15px;
+    padding-top: 5px;
     padding-left: 20px;
     box-shadow: 11px 15px 13px 3px #846b6b;
 }
@@ -21,7 +24,6 @@
 
 @media only screen and (min-width: 1920px) {
     .main-project-container {
-        margin-left: 50%;
         margin-right: 100px;
         font-size: 38px;
     }
@@ -37,12 +39,15 @@
     .main-project-container {
         font-size: 20px;
     }
-
+    .project-versions h3 {
+        font-size: 1rem;
+    }
     .project-v1, .project-v2 {
         display: flex;
         font-size: 13px;
         width: 400px;
-        height: 137px;
+        height: 165px;
+        margin-bottom: 5px;
     }
 
     .project-v1 div, .project-v2 div {
@@ -58,5 +63,15 @@
     }
 }
 @media only screen and (max-width: 991px) {
-
+    .main-project-container {
+        margin-left: 0;
+    }
+    .project-v1, .project-v2 {
+        height: 270px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .project-versions {
+        justify-content: center;
+    }
 }
