@@ -290,7 +290,25 @@ button:focus {
   .mobile{
     display: block;
   }
-  .portfolio-active-section{
+  .side-menu-info{
+    padding: 5px;
+  }
+  .email {
+    font-size: 16px;
+  }
+  .side-sections button {
+    font-size: 12px;
+  }
+  .portfolio-active-section > div{
     padding: 0 5px;
+    margin: 200px 0 70px 0;
+  }
+  .change-font-btn.mobile{
+    position: absolute;
+    top: -40px;
+  }
+  .portfolio-footer{
+    width: 100%;
+    text-align: right;
   }
 }
