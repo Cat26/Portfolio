@@ -44,6 +44,7 @@
 .local-tapas-desc {
     background: #2e1e1e94;
     width: fit-content;
+    height: 100%;
 }
 
 .speech-detection {

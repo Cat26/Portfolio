@@ -165,6 +165,10 @@ button:focus {
   right: 0;
   bottom: 0;
 }
+.portfolio-active-section > div {
+  margin-left: 40%;
+  margin-top: 50px;
+}
 .desktop{
   display: block;
 }

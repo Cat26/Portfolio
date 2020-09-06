@@ -1,5 +1,4 @@
 .main-project-container {
-    margin: 55px 75px 55px 590px;
     font-size: 21px;
 }
 
@@ -22,7 +21,7 @@
 
 @media only screen and (min-width: 1920px) {
     .main-project-container {
-        margin-left: 900px;
+        margin-left: 50%;
         margin-right: 100px;
         font-size: 38px;
     }
@@ -36,7 +35,6 @@
 
 @media only screen and (min-width:992px) and (max-width: 1024px) {
     .main-project-container {
-        margin-left: 506px;
         font-size: 20px;
     }
 
