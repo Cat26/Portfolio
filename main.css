@@ -20,6 +20,7 @@ html, body {
 
 h2 {
   margin-top: 0;
+  font-weight: bold;
 }
 h3 {
   width: 100%;
@@ -143,7 +144,7 @@ button:focus {
 
 .change-font-btn {
   position: fixed;
-  padding: 17px;
+  /*padding: 17px;*/
   top: 0;
   right: 0;
   cursor: pointer;
@@ -160,10 +161,12 @@ button:focus {
 }
 
 .portfolio-footer {
+  margin: 0;
+  padding: 10px;
   position: fixed;
-  padding: 17px;
   right: 0;
   bottom: 0;
+  background: white;
 }
 .portfolio-active-section > div {
   margin-left: 50%;
@@ -174,6 +177,8 @@ button:focus {
 }
 .mobile{
   display: none;
+  background: white;
+  width: 100%;
 }
 @media only screen and (min-width: 1920px) {
   .side-menu {
@@ -318,6 +323,6 @@ button:focus {
   }
   .portfolio-footer{
     width: 100%;
-    text-align: right;
+    text-align: center;
   }
 }

@@ -1,6 +1,5 @@
 const email = document.querySelector('.email');
 const sectionButtons = document.querySelectorAll('.section-btn');
-const changeFontBtn = document.querySelector('.change-font-btn');
 const activeSection = document.querySelector('.portfolio-active-section');
 
 let currentSectionFont = 1;
@@ -18,17 +17,17 @@ email.addEventListener('click', e => {
     email.textContent = 'julia.joanna.hardy@gmail.com'
 });
 
-changeFontBtn.addEventListener('click', e => {
+function changeFont(el) {
     if(currentSectionFont === 1) {
         activeSection.style.fontFamily = 'sans-serif';
-        changeFontBtn.innerHTML = 'Change font to more fancy'
+        el.innerHTML = 'Change font to more fancy'
         currentSectionFont = 2;
     } else {
         activeSection.style.fontFamily = 'dancingScript,sans-serif';
-        changeFontBtn.innerHTML= 'Change font to more readable';
+        el.innerHTML= 'Change font to more readable';
         currentSectionFont = 1;
     }
-});
+}
 
 function handleSectionsSwitch(el) {
     const activeSection = document.querySelector('.active');

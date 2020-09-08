@@ -82,4 +82,8 @@
     .project-versions {
         justify-content: center;
     }
+
+    .project-v2 {
+        margin-bottom: 35px;
+    }
 }

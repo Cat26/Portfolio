@@ -68,13 +68,14 @@
     height: 100%;
 }
 
-.tooltip {
+.item-tooltip {
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted black;
+    z-index: 0;
 }
 
-.tooltip .tooltiptext {
+.item-tooltip .tooltiptext {
     visibility: hidden;
     width: 120px;
     background-color: black;
@@ -88,7 +89,7 @@
     z-index: 1;
 }
 
-.tooltip:hover .tooltiptext {
+.item-tooltip:hover .tooltiptext {
     visibility: visible;
 }
 
@@ -235,6 +236,18 @@
         flex-direction: column;
     }
     .model-content-item {
-        width: 100%;
+        width: 100% !important;
+    }
+    .model-content-item.content-img {
+        border: 0;
+        padding: 0;
+    }
+    .graphics-item:last-of-type {
+        margin-bottom: 25px;
+    }
+    .close {
+        position: absolute;
+        top: 0;
+        right: 16px;
     }
 }
