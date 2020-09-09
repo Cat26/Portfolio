@@ -4,8 +4,8 @@
 }
 
 .project-v1, .project-v2 {
-    width: 294px;
-    height: 350px;
+    width: 304px;
+    height: 362px;
     background: #d3d3d385;
     display: inline-block;
     margin-right: 20px;
@@ -33,13 +33,13 @@
     }
     .main-project-container {
         margin-right: 100px;
-        font-size: 30px;
+        font-size: 41px;
     }
 
     .project-v1, .project-v2 {
-        width: 380px;
-        height: 400px;
-        font-size: 22px;
+        width: 518px;
+        height: 547px;
+        font-size: 28px;
     }
 }
 
@@ -49,25 +49,19 @@
     }
     .project-versions h3 {
         font-size: 1rem;
+        margin-top: 10px;
     }
     .project-v1, .project-v2 {
-        display: flex;
-        font-size: 13px;
-        width: 400px;
-        height: 165px;
-        margin-bottom: 5px;
-    }
-
-    .project-v1 div, .project-v2 div {
-        display: inline-block;
-    }
-
-    .project-v2 {
-        margin-top: 20px;
+        width: 219px;
+        height: 327px;
     }
 
     .main-project-technologies {
-        margin-left: 25px;
+        margin-top: 10px;
+    }
+
+    ul {
+        padding: 0;
     }
 }
 @media only screen and (max-width: 991px) {

@@ -32,6 +32,10 @@
         font-size: 30px;
     }
 
+    .technology-item {
+        margin: 34px;
+    }
+
     .technology-name {
         width: 320px;
     }

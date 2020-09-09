@@ -6,6 +6,10 @@
   .about-container {
     font-size: 38px;
   }
+
+  .about-container p {
+    margin: 45px;
+  }
 }
 
 @media only screen and (min-width:992px) and (max-width: 1024px) {
