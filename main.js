@@ -30,6 +30,7 @@ function changeFont(el) {
 }
 
 function handleSectionsSwitch(el) {
+    window.scrollTo(0,0);
     const activeSection = document.querySelector('.active');
     const clickedSection = el.id;
     getSectionData(clickedSection);
