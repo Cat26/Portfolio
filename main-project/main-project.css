@@ -75,15 +75,11 @@
         margin-left: 0;
     }
     .project-v1, .project-v2 {
-        height: 270px;
+        height: 280px;
     }
 }
 @media only screen and (max-width: 575px) {
     .project-versions {
         justify-content: center;
-    }
-
-    .project-v2 {
-        margin-bottom: 35px;
     }
 }
